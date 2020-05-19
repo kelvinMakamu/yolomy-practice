@@ -1,0 +1,29 @@
+*{
+	margin:0;
+	padding:0;
+	border: 0;
+	border-radius: 0% !important;
+	font-family: consolas;
+}
+
+.jumbotron{
+	background-image: url('../../assets/backgrounds/hero.jpg');
+}
+
+.left-navigation > a{
+	font-weight: thin;
+	text-decoration: none;
+	margin-left:5%;
+}
+
+.yolomy-home{
+	margin-right: 25%;
+}
+
+.yolomy-products{
+	margin-right: 10%;
+}
+
+.right-navigation > a{
+	text-decoration: none;
+}
