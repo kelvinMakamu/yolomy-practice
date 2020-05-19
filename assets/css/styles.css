@@ -27,3 +27,16 @@
 .right-navigation > a{
 	text-decoration: none;
 }
+
+.tag-line{
+	margin: 15% 0% 5% 25%;
+}
+
+.tag-line > h1{
+	font-size:50px;
+	font-weight:lighter;
+}
+
+.tag-line > span{
+	font-size:18px;
+}
