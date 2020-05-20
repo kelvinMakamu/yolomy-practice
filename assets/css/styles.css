@@ -69,11 +69,13 @@ i{
 
 .btn-danger{
 	color:#f5f5f5 !important;
-	font-size:14px !important;
-	font-weight: lighter !important;
-	padding:10px 20px !important;
+	font-size:11px !important;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+	padding:4.5% 8% 4.5% 8% !important;
 	background-color: #5e1f22;
 	border:1px solid #5e1f22;
+	border-radius: 4% !important;
 }
 
 .btn-danger:hover{
