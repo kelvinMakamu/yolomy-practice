@@ -197,9 +197,24 @@ legend {
 
 .yolomy-social-contact{
 	width: 100%;
-	padding:5% 5% 5% 5%;
+}
+
+.social-contact-light{
+	padding:1.75% 2.5% 1.25% 5%;
+	background-color:#545454;
+}
+
+.social-contact-light img{
+	margin-left:15%;
 }
 
 .yolomy-sale-message{
-	font-size:20px !important;
+	font-size:18px !important;
+	font-weight: lighter !important;
+	color:#fff !important;
+	margin-left: -10%;
+}
+
+.social-contact-dark{
+	background-color:#151515;
 }
