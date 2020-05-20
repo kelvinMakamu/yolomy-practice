@@ -1,6 +1,6 @@
 *{
 	border-radius: 0% !important;
-	font-family: sans-serif;
+	font-family: "New Century Schoolbook", serif;
 }
 
 .jumbotron{
@@ -60,8 +60,12 @@ input[type="checkbox"]{
 }
 
 .btn-danger{
-	background-color: #8B0000;
-	border:1px solid #8B0000;
+	color:#f5f5f5 !important;
+	font-size:14px !important;
+	font-weight: lighter !important;
+	padding:10px 20px !important;
+	background-color: #5e1f22;
+	border:1px solid #5e1f22;
 }
 
 .btn-danger:hover{
@@ -110,7 +114,6 @@ input[type="checkbox"]{
 }
 
 .product-left-label{
-	color:#666666 !important;
 	margin-left: -2%;
 }
 
@@ -136,4 +139,21 @@ input[type="checkbox"]{
 .product-price{
 	letter-spacing: 2px;
 	color:#0e0e0e;
+}
+
+.products-women hr{
+	width:93% !important;
+}
+
+.products-women h4{
+	font-size: 18px;
+	margin:10% 0% 0% -70% !important;
+}
+
+.pagination-women{
+	margin-left: 1.5%;
+}
+
+.bg-maroon{
+	background-color: #693c3b;
 }
