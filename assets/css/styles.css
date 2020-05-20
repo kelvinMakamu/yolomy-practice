@@ -141,6 +141,10 @@ input[type="checkbox"]{
 	color:#0e0e0e;
 }
 
+.products-women{
+	margin-bottom: 8%;
+}
+
 .products-women hr{
 	width:93% !important;
 }
@@ -159,5 +163,5 @@ input[type="checkbox"]{
 }
 
 .yolomy-bottom{
-	background-image: url('../../assets/backgrounds/about.jpg') !important;
+	background-image: url('../../assets/backgrounds/about.jpg');
 }
