@@ -1,5 +1,5 @@
 # YOLOMY PRACTICE PROJECT
-##Brief Description
+## Brief Description
 A project to  design a sample e-commerce website for a fictitious shop that sells clothes.
 ## Contributors
 * [kelvinMakamu](https://github.com/kelvinMakamu)
