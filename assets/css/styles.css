@@ -216,5 +216,52 @@ legend {
 }
 
 .social-contact-dark{
-	background-color:#151515;
+	color:#fff;
+	padding:5% 5% 2.5% 5%;
+	background-color:#2a2a2a;
+}
+
+.yolomy-who-we-are{
+	font-size:14px;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+}
+
+.yolomy-contact-section{
+	padding:2% 2% 2% 2%; 
+}
+
+.social-icons{
+	margin-left:2%;
+}
+
+.yolomy-social-word-tag{
+	font-size:18px ;
+	margin-left: 20%;
+}
+
+.yolomy-contact-section-padding-top{
+	padding-top:8% !important;
+}
+
+.yolomy-contact-section-padding-top-extra{
+	padding-top:10% !important;
+}
+
+.extra-left-padding{
+	padding-left: 18%;
+}
+
+.yolomy-border-right{
+	margin-right: 2%;
+	border-right: 2px solid #b29966;
+}
+
+.yolomy-footer{
+	margin-top:3%;
+}
+
+.yolomy-footer-copyright{
+	font-size:13px;
+	text-transform: uppercase;
 }
