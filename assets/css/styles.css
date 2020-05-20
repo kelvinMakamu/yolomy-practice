@@ -69,8 +69,8 @@ input[type="checkbox"]{
 }
 
 .btn-danger:hover{
-	background-color: #8B0000;
-	border:1px solid #8B0000;
+	background-color: #5e1f22;
+	border:1px solid #5e1f22;
 }
 
 .products-content{
@@ -142,7 +142,7 @@ input[type="checkbox"]{
 }
 
 .products-women{
-	margin-bottom: 8%;
+	margin-bottom: 5%;
 }
 
 .products-women hr{
@@ -164,4 +164,37 @@ input[type="checkbox"]{
 
 .yolomy-bottom{
 	background-image: url('../../assets/backgrounds/about.jpg');
+	background-repeat: no-repeat;
+  background-size: auto;
+}
+
+fieldset {
+  display: block;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  padding:3% 3% 3% 3%;
+  border: 2px solid #b29966;
+  box-shadow: 1px 1px 1px #b29966;
+  width: 55%;
+}
+
+legend {
+   display: table; 
+   min-width: 0px;
+   max-width: 30%;
+   position: relative;
+   margin: auto;
+   padding: 5px 20px;
+   color: #fff;
+   font-size: 20px;
+   text-align: center;
+}
+
+.yolomy-bottom .yolomy-brand-message{
+	text-align: center;
+	font-size:25px !important;
+}
+
+.yolomy-social-contact{
+	width: 100%;
 }
