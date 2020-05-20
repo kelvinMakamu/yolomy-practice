@@ -52,20 +52,51 @@
 }
 
 input[type="checkbox"]{
-   transform: scale(1.5);
-   vertical-align:middle;
+	position: absolute;
+	top:0px;
+	left: 0px;
+	height: 20px;
+	width: 20px;
+	-webkit-appearance:none;
 }
 
 .form-check-label{
-	margin-left: 8%;
-	padding-top:10%;
+	display:  flex; 
+  position:  relative;
+  font-size:  20px; 
+  font-weight:  400;
+  align-items:  center; 
+  justify-content:  flex-start; 
+  margin-bottom:  20px; 
+}
+
+.form-check-label:before {
+  display:  flex; 
+  content: ' ';
+  height:  20px; 
+  width:  20px; 
+  border:  1px solid #b29966;
+  background:  #fff;
+  margin-right:  10px; 
+}
+
+.form-check-input+.form-check-label::after {
+  content: "\2713";
+  color: #000;
+  text-align: center;
+  opacity: 0;
+  position: absolute;
+  left: 2px;
+}
+
+.form-check-input:checked+.form-check-label::after {
+  opacity: 1;
 }
 
 i{
 	margin-left:5% !important;
 	font-weight: bold !important;
 }
-
 
 .btn-danger{
 	color:#f5f5f5 !important;
