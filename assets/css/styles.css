@@ -3,7 +3,7 @@
 	font-family: "New Century Schoolbook", serif;
 }
 
-.jumbotron{
+.yolomy-top{
 	background-image: url('../../assets/backgrounds/hero.jpg');
 }
 
@@ -156,4 +156,8 @@ input[type="checkbox"]{
 
 .bg-maroon{
 	background-color: #693c3b;
+}
+
+.yolomy-bottom{
+	background-image: url('../../assets/backgrounds/about.jpg') !important;
 }
