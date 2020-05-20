@@ -197,4 +197,9 @@ legend {
 
 .yolomy-social-contact{
 	width: 100%;
+	padding:5% 5% 5% 5%;
+}
+
+.yolomy-sale-message{
+	font-size:20px !important;
 }
