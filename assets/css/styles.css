@@ -40,5 +40,40 @@
 }
 
 .scroll-down img{
-	margin:5% 0% -3% -3%;
+	margin:5% 0% -1% -3%;
+}
+
+.products-selection{
+	margin:-5% 0% 0% 0%;
+	padding:3.5% 3% 3% 3%;
+	background-color: #b29966;
+}
+
+input[type="checkbox"]{
+   transform: scale(1.5);
+   vertical-align:middle;
+}
+
+.form-check-label{
+	margin-left: 8%;
+	padding-top:10%;
+}
+
+.btn-danger{
+	background-color: #8B0000;
+	border:1px solid #8B0000;
+}
+
+.btn-danger:hover{
+	background-color: #8B0000;
+	border:1px solid #8B0000;
+}
+
+.products-content{
+	margin: 2% 5% 2% 5%;
+}
+
+h4{
+	font-size: 18px;
+	margin:10% 0% 0% 45%;
 }
