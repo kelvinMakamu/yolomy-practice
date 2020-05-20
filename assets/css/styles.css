@@ -33,7 +33,6 @@
 .tag-line > h1{
 	font-size:50px;
 	font-weight:lighter;
-	letter-spacing: 2px;
 }
 
 .tag-line > span{
@@ -82,7 +81,7 @@ input[type="checkbox"]{
 
 .form-check-input+.form-check-label::after {
   content: "\2713";
-  color: #000;
+  color: #b29966;
   text-align: center;
   opacity: 0;
   position: absolute;
@@ -102,7 +101,6 @@ i{
 	color:#f5f5f5 !important;
 	font-size:11px !important;
 	font-weight: bold;
-	letter-spacing: 1.5px;
 	padding:4.5% 8% 4.5% 8% !important;
 	background-color: #5e1f22;
 	border:1px solid #5e1f22;
@@ -131,7 +129,6 @@ i{
 	margin-left: 8%;
 	color:#b29966;
 	font-weight: bold;
-	letter-spacing: 1.5px;
 }
 
 .fa-angle-left{
@@ -184,7 +181,6 @@ i{
 }
 
 .product-price{
-	letter-spacing: 2px;
 	color:#0e0e0e;
 }
 
@@ -257,7 +253,6 @@ legend {
 
 .yolomy-sale-message{
 	font-size:18px !important;
-	font-weight: lighter !important;
 	color:#fff !important;
 	margin-left: -10%;
 }
@@ -270,7 +265,6 @@ legend {
 
 .yolomy-who-we-are{
 	font-size:14px;
-	letter-spacing: 1.5px;
 	text-transform: uppercase;
 }
 
@@ -289,6 +283,15 @@ legend {
 
 .yolomy-contact-section-padding-top{
 	padding-top:8% !important;
+}
+
+.yolomy-contact-section-padding-top h3,.yolomy-footer-copyright,
+ .extra-left-padding, .yolomy-contact-section-padding-top-extra,
+ .yolomy-who-we-are,.yolomy-sale-message,.yolomy-brand-message,
+ legend,.product-name,.product-price, .product-left-label,
+ .products-pagination,.products-content h4,.form-check-label,
+ .btn-danger,.tag-line > h1,.text-white{
+	letter-spacing: 2px;
 }
 
 .yolomy-contact-section-padding-top-extra{
