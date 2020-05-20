@@ -8,17 +8,18 @@
 }
 
 .left-navigation > a{
-	font-weight: thin;
 	text-decoration: none;
 	margin-left:5%;
 }
 
 .yolomy-home{
 	margin-right: 25%;
+	font-weight: bold;
 }
 
 .yolomy-products{
 	margin-right: 10%;
+	font-weight: bold;
 }
 
 .right-navigation > a{
